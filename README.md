@@ -1,45 +1,47 @@
-# Min-Max Scaling & Feature Normalization Analysis
+# Min-Max Scaling Analysis using Scikit-learn
 
-This project explores the practical impact of Min-Max Scaling in Machine Learning using Python and Scikit-learn.
+This repository explores the practical implementation of **Min-Max Scaling** in Machine Learning using Python and Scikit-learn.
 
-The notebook focuses on understanding how normalization changes feature distributions and improves data consistency for machine learning workflows.
-
-Using the Wine dataset, I applied `MinMaxScaler` to normalize numerical features and visualized the effect before and after scaling using KDE plots and scatter plots.
+Using the Wine dataset, feature values were normalized with `MinMaxScaler` and analyzed through statistical visualization techniques to understand how scaling transforms feature distributions while preserving underlying data patterns.
 
 ---
 
-## Workflow
+## 📌 Project Highlights
 
-* Data Exploration
-* Feature Selection
+* Data Exploration & Feature Selection
 * Train-Test Split
-* Min-Max Scaling using MinMaxScaler
-* Scatter Plot Visualization
-* KDE Distribution Analysis
-* Feature Distribution Comparison
+* Feature Normalization using `MinMaxScaler`
+* KDE Distribution Visualization
+* Scatter Plot Comparison
+* Before vs After Scaling Analysis
 
 ---
 
-## Key Learning
+## 📊 Key Insight
 
-Min-Max Scaling transforms feature values into a fixed range between 0 and 1.
+After applying Min-Max Scaling:
 
-This helps:
+* all feature values were transformed into a fixed range between **0 and 1**
+* feature distributions became more consistent
+* data visualization became easier to interpret
+* relative relationships between data points remained preserved
 
-* maintain proportional relationships between values
-* improve consistency between features
-* prepare data for distance-based machine learning algorithms
-
-The visualizations clearly show how scaling changes feature distributions while preserving underlying patterns in the data.
-
----
-
-## Technologies Used
-
-Python • Pandas • NumPy • Matplotlib • Seaborn • Scikit-learn • Jupyter Notebook
+This demonstrates why normalization is an important preprocessing step for many Machine Learning workflows and distance-based algorithms.
 
 ---
 
-## Conclusion
+## 🛠️ Technologies Used
 
-This project helped me understand the practical difference between raw and normalized data and strengthened my understanding of preprocessing and feature scaling techniques in Machine Learning.
+**Python • Pandas • NumPy • Matplotlib • Seaborn • Scikit-learn • Jupyter Notebook**
+
+---
+
+## 🚀 Outcome
+
+This project strengthened my understanding of:
+
+* Feature Scaling
+* Data Preprocessing
+* Normalization Techniques
+* Visualization & Distribution Analysis
+* Practical ML Workflow Implementation
